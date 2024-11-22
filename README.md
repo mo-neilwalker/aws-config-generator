@@ -11,5 +11,10 @@ Python helper script to create an AWS config from a list of AWS accounts
 
 ## Limitations
 
-Config file becomes very verbose with many accounts, especially when you have multiple levels of access.
+- Config file becomes very verbose with many accounts, especially when you have multiple levels of access.
+- default Level of access not always valid (SupportAccess is not available on for example MOSRS)
+- default region is not always correct
 
+## Possible Issues
+
+- ./input/aws_accounts.txt must follow a specific format for the regex to be satisfied, at the time of writing the regex is correct, however as amazon frequently updated aws, it may need to be updated.

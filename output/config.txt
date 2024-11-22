@@ -1,0 +1,33 @@
+[sso-session TEST]
+sso_start_url = VALID URL
+sso_region = eu-west-2
+sso_registration_scopes = sso:account:access
+
+[profile test-ci]
+sso_session = TEST
+sso_account_id = 000000000001
+sso_role_name = SupportAccess
+output = json
+region = eu-west-2
+
+[profile test-dev]
+sso_session = TEST
+sso_account_id = 000000000002
+sso_role_name = SupportAccess
+output = json
+region = eu-west-2
+
+[profile test-mgmt]
+sso_session = TEST
+sso_account_id = 000000000003
+sso_role_name = SupportAccess
+output = json
+region = eu-west-2
+
+[profile test-prod]
+sso_session = TEST
+sso_account_id = 000000000004
+sso_role_name = SupportAccess
+output = json
+region = eu-west-2
+
