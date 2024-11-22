@@ -1,0 +1,11 @@
+TEST CI
+000000000001 | aws-test-ci@metoffice.gov.uk
+
+TEST DEV
+000000000002 | aws-test-dev@metoffice.gov.uk
+
+TEST MGMT
+000000000003 | aws-test-mgmt@metoffice.gov.uk
+
+TEST PROD
+000000000004 | aws-test-prod@metoffice.gov.uk
