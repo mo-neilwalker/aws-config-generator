@@ -1,5 +1,5 @@
 [sso-session TEST]
-sso_start_url = VALID_URL
+sso_start_url = VALID URL
 sso_region = eu-west-2
 sso_registration_scopes = sso:account:access
 

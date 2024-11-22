@@ -7,7 +7,7 @@ def main():
 
     # # Define the input file and output config file paths
     input_file = "./input/aws_accounts.txt"
-    output_file = os.path.expanduser("./output/config")
+    output_file = os.path.expanduser("./output/config.txt")
 
     # # Default values
     default_sso_region = "eu-west-2"
